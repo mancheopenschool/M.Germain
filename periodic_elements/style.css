@@ -1,0 +1,112 @@
+body h1 {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Bitstream Vera Sans";
+}
+
+.nonmetal { 
+	background-color: #A0FFA0;
+}
+
+.alkalim { 
+	background-color: #FF6666;
+}
+
+.alkearth {
+	background-color: #FFDEAD;
+}
+
+.transitm {
+	background-color: #FFC0C0;
+}
+
+.lanthan {
+	background-color: #FFBFFF; 
+}
+
+.actinide {
+	background-color: #FF99CC;
+}
+
+.metalloid {
+	background-color: #CCCC99;
+}
+
+.halogen   {
+	background-color: #FFFF99;
+}
+
+.poormetal {
+	background-color: #CCCCCC;
+}
+
+.noblegas {
+	background-color: #C0FFFF;
+}
+
+.legend {
+	background-color: #EBEBEB;
+}
+
+.primord {
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.radioact { 
+	border-color: #000000;
+	border-width: 1px;
+	border-style: dashed;
+}
+
+.synthetic {
+	border-color: #000000;
+	border-width: 1px;
+	border-style: dotted;
+}
+
+.thin { 
+	border-color: #C3C3C3;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.font_color_red {
+	color: #FF0000;
+}
+
+.font_color_blue {
+	color: #0000FF;
+}
+
+.box {
+	font-size: 9px;
+	text-align: center;
+	margin: 2px;
+    max-width: 5.26%;
+}
+
+/*
+
+@media (min-width: 768px) {
+  .container-fluid {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    width: 1366px;
+  }
+}
+
+*/

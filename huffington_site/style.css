@@ -1,0 +1,147 @@
+.date {
+	font-size: 12px;
+	font-family: georgia;
+	color: #747474;
+	margin-top: 7px;
+	margin-bottom: -10px;
+}
+
+.top {
+	font-size: 12px;
+	vertical-align: center;
+	text-align: center;
+	color: #1C9385;
+	border-style: none none solid none;
+	border-width: 2px;
+	border-color: #1C9385;
+	background-color: #E8E8E8;
+	font-weight: bold;
+}
+
+.menu {
+	background-color:#2D7061;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.menu:hover {
+	background-color: #FFFFFF;
+	color: #2D7061;
+	border-style: solid none none none;
+	border-width: 2px;
+	border-color: #2D7061;
+}
+
+.menu a:link {
+	color: #FFFFFF;
+}    
+.menu a:visited {
+	color: #FFFFFF;
+} 
+.menu a:hover {
+	color: #2D7061;
+}   
+
+.menu a:active {
+	color: #2D7061;
+}
+
+.row {
+	text-align:center;
+}
+
+.social {
+	text-align: right;
+	max-width: 100%;
+}
+
+.grostitre {
+	margin-top: 13px;
+}
+
+.grostitre a {
+	font-size: 96px;
+	color: #000000;
+	font-family: Arial,'Helvetica Neue',Helvetica,sans-serif !important;
+	line-height: 1.05;
+}
+
+.grostitre a:hover {
+	color: #000000;
+}
+
+.titresuite {
+	padding: 5px 0 5px 0;
+}
+
+.titresuite a {
+	font-size: 32px;
+	color: #03497E;
+	font-family: Arial,'Helvetica Neue',Helvetica,sans-serif !important;
+	line-height: 1.05;
+}
+
+.titresuite a:hover {
+	color: #03497E;;
+}
+
+.imagetitre {
+	padding-left: 11%;
+	padding-right: 100%;
+	height: 425px;
+	width: 900px;
+}
+
+.fintitre {
+	padding: 5px;
+}
+
+.fintitre a {
+	font-size: 36px;
+	color: #000000;
+	font-family: Arial,'Helvetica Neue',Helvetica,sans-serif !important; 
+	line-height: 1.05;
+}
+
+.fintitre a:hover {
+	color: #000000;
+}
+
+.com {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.com a {
+	color: #169384;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.com a:hover; {
+	color: #169384;
+}
+
+
+.gauche {
+	border-style: solid solid none none;
+	border-width: 1px;
+	border-color: #DFDFDF;
+}
+
+.centre {
+	border-style: solid solid none none;
+	border-width: 1px;
+	border-color: #DFDFDF;
+}
+
+.droite {
+	border-style: solid none none none;
+	border-width: 1px;
+	border-color: #DFDFDF;
+}
+
