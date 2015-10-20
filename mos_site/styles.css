@@ -1,0 +1,60 @@
+
+body {
+	background-color: #DFDAD5;
+}
+
+.monheader {
+	display: inline;
+	text-align: center;
+}
+
+.monheader img {
+	width: 100px;
+    height: 100px;
+    display: inline;
+    text-align: right;
+}
+
+.manavbar {
+	text-align: center;
+	background-color:#2C416E;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Ubuntu", Arial, Verdana;
+	width: 16.3%;
+	border-radius: 0%;
+	padding-top: 6px;
+}
+
+.manavbar a {
+	color: #FFFFFF;
+}
+
+.manavbar:hover {
+	background-color: #FFFFFF;
+	color: #2C416E;
+	border-style: solid none none none;
+	border-width: 2px;
+	border-color: #2C416E;
+}
+
+.manavbar:hover a {
+	color: #2C416E;
+}
+
+.moncontent {
+	text-align: center;
+}
+
+.monfooter {
+	text-align: center;
+	padding-top: 5px;
+	height: 30px;
+	width: 33%;
+    background-color: #2C416E;
+    font-size: 12px;
+    font-family: arial;
+    color: #FFFFFF; 
+}
+
