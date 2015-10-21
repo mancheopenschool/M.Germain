@@ -8,23 +8,14 @@ body {
 	text-align: center;
 }
 
-.monheader img {
-	width: 100px;
-    height: 100px;
-    display: inline;
-    text-align: right;
-}
-
 .manavbar {
 	text-align: center;
-	background-color:#2C416E;
-	height: 30px;
+	background-color: #130F44;
 	font-size: 14px;
 	font-weight: bold;
 	font-family: "Ubuntu", Arial, Verdana;
-	width: 16.3%;
-	border-radius: 0%;
-	padding-top: 6px;
+	padding-top: 4px;
+	height: 30px;
 }
 
 .manavbar a {
@@ -33,28 +24,69 @@ body {
 
 .manavbar:hover {
 	background-color: #FFFFFF;
-	color: #2C416E;
+	color: #130F44;
 	border-style: solid none none none;
 	border-width: 2px;
-	border-color: #2C416E;
+	border-color: #130F44;
 }
 
 .manavbar:hover a {
-	color: #2C416E;
+	color: #130F44;
 }
 
 .moncontent {
-	text-align: center;
+	background-color: #FFFFFF;
+}
+
+
+.partenaire p {
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 .monfooter {
 	text-align: center;
-	padding-top: 5px;
-	height: 30px;
-	width: 33%;
-    background-color: #2C416E;
-    font-size: 12px;
-    font-family: arial;
-    color: #FFFFFF; 
+	color: #FFFFFF;
+	background-color: #130F44;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Arial, Verdana;
+	padding-top: 4px;
+	height: 25px;
+	width: 33.33%;
 }
 
+.financiers img {
+	margin: 0 10px 0 10px;
+	max-height: 90px;
+	max-width: auto;
+}
+
+.pedago img {
+	margin: 0 10px 0 10px;
+	max-height: 150px;
+	max-width: auto;
+}
+
+.techno img {
+	margin: 0 10px 0 10px;
+	max-height: 150px;
+	max-width: auto;
+}
