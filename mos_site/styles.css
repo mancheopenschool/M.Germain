@@ -70,9 +70,11 @@ a:active {
 	font-family: Arial, Verdana;
 	padding-top: 4px;
 	height: 25px;
-	width: 33.33%;
+	width: 33%;
 }
-
+.row-footer {
+	margin: 0 auto 0 auto;
+}
 .financiers img {
 	margin: 0 10px 0 10px;
 	max-height: 90px;
