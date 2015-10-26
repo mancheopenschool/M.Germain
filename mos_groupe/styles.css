@@ -119,6 +119,8 @@
 }
 
 .monfooter {
+  padding-top: 5px;
+  height: 30px;
   color: #FFFFFF;
   background-color: #222222;
 }

@@ -1,0 +1,22 @@
+body {
+	background-color: #D8E0E9;
+}
+
+.bienvenue {
+	color: #CD4A38;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Rancho';
+}
+
+.titre {
+	color: #CD4A38;
+	font-size: 20px;
+	font-family: 'Rancho';
+	margin-left: 5px;
+}
+
+.flexslider {
+	border-width: 3px;
+	border-color: #CD4A38;
+}

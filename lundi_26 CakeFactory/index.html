@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Cake Factory - TP jQuery</title>
+	<script src="jquery.js"></script>
+
+	<!-- FlexSlider -->
+	<link rel="stylesheet" href="FlexSlider/flexslider.css" type="text/css">
+	<script src="FlexSlider/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+    	$(window).load(function() {
+    	$('.flexslider').flexslider();
+		});
+	</script>
+
+	<!-- jQuery UI -->
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+	<script src="jquery-ui/jquery-ui.js"></script>
+
+	<!-- Date Widget -->
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+		$( "#date" ).datepicker();
+		});
+	</script>
+
+	<!-- Accordion Widget -->
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+		$( "#accordion" ).accordion();
+		});
+	</script>
+
+	<!-- Tabs Widget -->
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+		$( "#tabs" ).tabs();
+		});
+	</script>
+
+	<!-- CSS perso -->
+	<link rel="stylesheet" href="styles.css" type="text/css">
+
+	<!-- Font perso -->
+	<link href='https://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+	<div class="bienvenue">
+
+		<h1>Cake Factory</h1>
+
+	</div> <!-- .bienvenue -->
+
+	<div class="flexslider">
+		<ul class="slides">
+
+			<li>
+				<img src="Images/kitchen1.jpg" />
+			</li>
+			<li>
+				<img src="Images/kitchen2.jpg" />
+			</li>
+			<li>
+				<img src="Images/kitchen3.jpg" />
+			</li>
+			<li>
+				<img src="Images/kitchen4.jpg" />
+			</li>
+
+		</ul> <!-- .slides -->
+	</div> <!-- .flexslider -->
+
+	<div class="titre">
+		<h3>Quel jour sommes-nous ?</h3>
+	</div>
+
+	<!-- Widget pour la date -->
+	<input type="text" name="date" id="date">
+
+	<div class="titre">
+		<h3>Nos gâteaux du jour</h3>
+	</div>
+
+	<div id="accordion">
+
+		<h3>Cake One</h3>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+		<h3>Cake Two</h3>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+		<h3>Cake Three</h3>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<ul>
+					<li>blabla one</li>
+					<li>blabla two</li>
+					<li>blabla three</li>
+				</ul>
+			</div>
+		<h3>Cake Four</h3>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+	</div> <!-- #accordion -->
+
+	<div class="titre">
+		<h3>A vous de les faire grâce à nos recettes !</h3>
+	</div>
+
+	<div id="tabs">
+ 		<ul>
+
+    		<li><a href="#fragment-1">Recette n°1</a></li>
+    		<li><a href="#fragment-2">Recette n°2</a></li>
+			<li><a href="#fragment-3">Recette n°3</a></li>
+			<li><a href="#fragment-4">Recette n°4</a></li>
+
+  		</ul>
+
+  		<div id="fragment-1">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+		sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		</div>
+
+		<div id="fragment-2">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+		sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		</div>
+
+		<div id="fragment-3">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+		sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		</div>
+
+		<div id="fragment-4">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
+		sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		</div>
+
+	</div> <!-- #tabs -->
+
+	<br>
+	
+	<br>
+
+</body>
+
+</html>
