@@ -1,0 +1,25 @@
+#mos {
+	height: 80px;
+	width: 80px;
+	background-color: yellow;
+}
+
+.trouve {
+	background-color: red;
+}
+
+#navigation li {
+	display: inline-block;
+	padding: 1em;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+#navigation a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.rougeactive {
+	background-color: red;
+}

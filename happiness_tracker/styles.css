@@ -1,0 +1,366 @@
+/* CSS ALL */
+
+html {
+	background:repeating-linear-gradient(45deg, #E8EEF7, #E8EEF7 5px, #F0F4F9 8px, #F0F4F9 8px);
+	height: 100%;
+}
+
+body {
+	border:2px solid;
+	border-color: #CD4A38;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 1%;
+	min-height: 96%;
+}
+
+.header {
+	display: inline-block;
+	margin: 5px 0 0 -15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	border-color : #CD4A38;
+	border-width: 2px;
+	border-style : none none solid none;
+	width: 100%;
+}
+
+.header img {
+	float: left;
+	height: 10%;
+	width: 10%;
+}
+
+.header h1 {
+    font-size: 30px;
+	float: left;
+	padding-top: 12px;
+	padding-left: 10px;
+}
+
+#slider {
+    margin-left: 24%;
+    width : 50%;
+    background: #D6CEC7;
+    border-color: #D6CEC7;
+}
+
+#slider1 {
+    margin-left: 24%;
+    width : 50%;
+    background: #D6CEC7;
+    border-color: #D6CEC7;
+}
+
+#slider2 {
+    margin-left: 24%;
+    width : 50%;
+    background: #D6CEC7;
+    border-color: #D6CEC7;
+}
+
+.ui-slider-range {
+    background: #D34215;
+    border-color: #CD4A38;
+}
+
+/* END CSS ALL */
+
+
+/* CSS INDEX.HTML */
+
+.boutonindex a {
+    padding: 1%;
+	margin: 10% 0% 10% 42%;
+}
+
+
+
+/* END CSS INDEX.HTML */
+
+
+/* CSS AUTH.HTML */
+
+.bodyauth p {
+    text-align: center
+}
+
+.moduleauth {
+    text-align: center;
+    display: block;
+}
+
+.moduleauth select {
+    padding-left: 5%;
+}
+
+.moduleauth input {
+    text-align: center;
+    margin-top : 5%;
+    margin-bottom: 5%;
+}
+
+.boutonauth {
+    margin-left: 38%;
+    margin-bottom: 5%;
+}
+
+/* END CSS AUTH.HTML */
+
+
+/* CSS CODE.HTML */
+
+.codetitrebar {
+    padding-left: 14%;
+}
+
+.modulecode {
+    text-align: center;
+}
+
+#smileycode div {
+    display: inline;
+    text-align: center;
+}
+
+.boutoncode {
+    margin-top: 5%;
+    margin-left: 39%;
+    margin-bottom: 5%;
+}
+
+/* END CSS CODE.HTML */
+
+
+/* CSS SATI.HTML */
+
+.satititrebar1 {
+    padding-left: 14%;
+}
+
+.modulesati1 {
+    text-align: center;
+}
+
+.satititrebar2 {
+    padding-left: 14%;
+}
+
+.modulesati2 {
+    text-align: center;
+}
+
+#smileysati1 div {
+    display: inline;
+    text-align: center;
+}
+
+#smileysati1 img {
+    width: 80px;
+    height: 80px;
+}
+
+#smileysati2 div {
+    display: inline;
+    text-align: center;
+}
+
+#smileysati2 img {
+    width: 80px;
+    height: 80px;
+}
+
+#smiley12, #smiley13, #smiley11, #smiley15, #smiley16, #smiley17 {
+    opacity: 0.4;
+}
+
+.opacitehaute {
+    opacity: 1;
+}
+
+
+.opacitebasse {
+    opacity: 0.4;
+}
+
+.boutonsati {
+    margin-top: 1%;
+    margin-left: 39%;
+    margin-bottom: 1%;
+}
+
+/* END CSS SATI.HTML */
+
+/* CSS VALI.HTML */
+#ok {
+    text-align: center;
+}
+/* END CSS VALI.HTML */
+
+/* CSS FINISH.HTML */
+/* END CSS FINISH.HTML */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Progress Tracker v2 */
+
+ol.progress[data-steps="2"] li { width: 49%; }
+ol.progress[data-steps="3"] li { width: 33%; }
+ol.progress[data-steps="4"] li { width: 24%; }
+ol.progress[data-steps="5"] li { width: 19%; }
+ol.progress[data-steps="6"] li { width: 16%; }
+ol.progress[data-steps="7"] li { width: 14%; }
+ol.progress[data-steps="8"] li { width: 12%; }
+ol.progress[data-steps="9"] li { width: 11%; }
+
+.progress {
+    width: 100%;
+    list-style: none;
+    list-style-image: none;
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+.progress li {
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.progress .name {
+    display: block;
+    vertical-align: bottom;
+    text-align: center;
+    margin-bottom: 1em;
+    color: black;
+    opacity: 0.3;
+}
+
+.progress .step {
+    color: black;
+    border: 3px solid silver;
+    background-color: silver;
+    border-radius: 50%;
+    line-height: 1.2;
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    z-index: 0;
+}
+
+.progress .step span {
+    opacity: 0.3;
+}
+
+.progress .active .name,
+.progress .active .step span {
+    opacity: 1;
+}
+
+.progress .step:before {
+    content: "";
+    display: block;
+    background-color: silver;
+    height: 0.4em;
+    width: 50%;
+    position: absolute;
+    bottom: 0.6em;
+    left: 0;
+    z-index: -1;
+}
+
+.progress .step:after {
+    content: "";
+    display: block;
+    background-color: silver;
+    height: 0.4em;
+    width: 50%;
+    position: absolute;
+    bottom: 0.6em;
+    right: 0;
+    z-index: -1;
+}
+
+.progress li:first-of-type .step:before {
+    display: none;
+}
+
+.progress li:last-of-type .step:after {
+    display: none;
+}
+
+.progress .done .step {
+    background-color: blue;
+}
+
+.progress .done .step:after {
+    background-color: red;
+}
+
+.progress .active .step {
+    background-color: lightgreen;
+}
+
+.progress .done .step:before {
+    background-color: green;
+  
+}
+
+.progress .active .step:before {
+    background-color: black;
+    
+}
+
+.progress .done .step {
+    background-color: lightblue;
+    border-width: 3px;
+    border-color: lightblue;
+}
+
+.progress .active .step {
+    border-width: 2px;
+    border-style: solid ;
+    border-color: black;
+}
+
+/* END Progress Tracker v2 */
